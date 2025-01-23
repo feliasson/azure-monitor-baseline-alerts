@@ -107,7 +107,7 @@ resource metricAlert 'Microsoft.Insights/metricAlerts@2018-03-01' = {
         {
           name: '1st criterion'
           metricName: 'physical_data_read_percent'
-          dimensions: [[]]
+          dimensions: []
           operator: operator
           threshold: threshold
           timeAggregation: timeAggregation

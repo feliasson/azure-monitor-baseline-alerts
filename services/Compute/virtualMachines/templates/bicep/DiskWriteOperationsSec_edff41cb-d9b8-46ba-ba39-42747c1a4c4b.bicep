@@ -107,7 +107,7 @@ resource metricAlert 'Microsoft.Insights/metricAlerts@2018-03-01' = {
         {
           name: '1st criterion'
           metricName: 'Disk Write Operations/Sec'
-          dimensions: [[]]
+          dimensions: []
           operator: operator
           threshold: threshold
           timeAggregation: timeAggregation
